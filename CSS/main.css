@@ -1,0 +1,13 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+#product {
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+}
+
