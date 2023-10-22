@@ -1,13 +1,49 @@
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    display: flex;
+    text-align: center; 
+    margin-bottom: 1.5rem;
 }
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
 
 #product {
     text-transform: uppercase;
     letter-spacing: 0.25rem;
+}
+
+#photo {
+    width: 20.6875rem;
+    
+}
+
+#photo, #card {
+    border-radius: 5% 5% 0 0;
+
+}
+
+#text {
+    margin: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+#explanation {
+    margin-bottom: 0.9rem;
+}
+
+#bigger-price-text {
+    font-size: 2rem;
+    display: inline;
+}
+
+#smaller-price-text {
+    font-size: 0.8rem;
+    vertical-align: middle;
+    
+
+}
+
+#price {
+    display: flex;
+    align-items: center;
 }
 

@@ -16,15 +16,15 @@ body {
     background-color: var(--Cream);
 }
 
-h1, p {
-    color: var(--Very-dark-blue);
-}
+
 h1 {
     font-family: 'Fraunces', serif;
+    color: var(--Very-dark-blue);
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
+    color: var(--Dark-grayish-blue);
 }
 
 #card {
@@ -38,10 +38,20 @@ p {
 
 }
 
+#smaller-price-text {
+    text-decoration: line-through;
+    color: var(--Dark-grayish-blue);
+}
+
 button {
     background-color: var(--Dark-cyan);
     color: var(--White);
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+}
+
+a {
+    color: var(--Dark-grayish-blue);
+    text-decoration: line-through;
 }
 
