@@ -42,6 +42,10 @@
 
 }
 
+#explanation {
+    line-height: 1.45rem;
+}
+
 #price {
     display: flex;
     align-items: center;
