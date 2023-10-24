@@ -1,4 +1,4 @@
-.attribution { 
+#attribution { 
     font-size: 11px; 
     display: flex;
     text-align: center; 
@@ -49,5 +49,6 @@
 #price {
     display: flex;
     align-items: center;
+    margin-bottom: 1rem;
 }
 

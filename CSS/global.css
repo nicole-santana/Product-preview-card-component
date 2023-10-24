@@ -28,6 +28,11 @@ h1 {
 button {
     border: none;
     border-radius: 5%;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6rem 5.5rem 0.6rem;
+    display: inline-block;
+
     
 }
 

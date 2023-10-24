@@ -54,6 +54,16 @@ button {
 
 a {
     color: var(--Dark-grayish-blue);
-    text-decoration: line-through;
 }
 
+#attribution  {
+    margin-top: 2rem;
+    color: var(--Dark-cyan);
+    font-family: 'Fraunces', serif !important;
+
+}
+
+#white {
+    color: var(--White);
+    font-size: 0.7rem;
+}
