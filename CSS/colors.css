@@ -10,6 +10,7 @@
     --Very-dark-blue: hsl(212, 21%, 14%);
     --Dark-grayish-blue: hsl(228, 12%, 48%);
     --White: hsl(0, 0%, 100%);
+    --Very-Dark-cyan: hsl(158, 36%, 17%);
 }
 
 body {
@@ -50,10 +51,11 @@ button {
     color: var(--White);
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    transition: background-color 0.3s;
 }
 
 a {
-    color: var(--Dark-grayish-blue);
+    color: var(--Very-Dark-cyan);
 }
 
 #attribution  {
@@ -66,4 +68,9 @@ a {
 #white {
     color: var(--White);
     font-size: 0.7rem;
+}
+
+button:hover {
+    color: var(--Very-Dark-cyan) 
+    !important;
 }
